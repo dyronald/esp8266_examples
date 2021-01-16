@@ -45,7 +45,7 @@ void setup(void)
 
   connectWifi();
 
-  if (pubClient.connect("Sub2"))
+  if (pubClient.connect("Pub"))
   {
     Serial.println("client connected");
   }
